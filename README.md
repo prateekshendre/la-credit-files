@@ -10,8 +10,18 @@ By Prateek Shendre. Over four years in structured credit risk and analytics at T
 | # | Title | Data | Status |
 |---|-------|------|--------|
 | 01 | LA runs more credit than you think | SEC Form ADV (registered adviser roster, Nov 2026) | Published Nov 17, 2026 |
-| 02 | Ares Capital: non-accruals and PIK | ARCC 10-Q | Nov 24, 2026 |
+| 02 | Inside Ares Capital's loan book | ARCC Form 10-Q, Sep 30, 2026 | Published Nov 24, 2026 |
 | 03 | Same loan, different price across BDCs | BDC schedules of investments | Planned |
+
+## Episode 02 at a glance
+
+- Ares Capital (ARCC) holds **$29.2B** at fair value across **636** companies (1,422 line items in the Schedule of Investments).
+- 58% first lien loans; about 28% of the book is equity (preferred, Ivy Hill and other equity).
+- Software and Services is the largest industry at 21.6% (23.8% in Dec 2025); 5 of the 8 biggest markdowns vs cost are software businesses.
+- Non-accruals rose from 1.8% to 2.4% of cost; grades 1 and 2 rose from 3.8% to 5.8% of fair value; PIK was 16.4% of Q3 income.
+- Of every $100 of Q3 investment income: $29 to lenders, $25 to Ares in fees, $3 admin and tax, $43 net investment income.
+
+Data: `e02/data/arcc_q3_2026.json` (fields marked `parsed` are computed from the Schedule of Investments; the rest are as reported). Build: `python3 e02/build.py`.
 
 ## Episode 01 at a glance
 
